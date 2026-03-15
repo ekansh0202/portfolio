@@ -35,6 +35,21 @@ const navIcons = [
   },
 ];
 
+const wallpapers = [
+  {
+    id: 1,
+    img: "/images/wallpaper1.png",
+  },
+  {
+    id: 2,
+    img: "/images/wallpaper2.png",
+  },
+  {
+    id: 3,
+    img: "/images/wallpaper3.png",
+  },
+];
+
 const dockApps = [
   {
     id: "finder",
@@ -207,6 +222,7 @@ const gallery = [
 export {
   navLinks,
   navIcons,
+  wallpapers,
   dockApps,
   blogPosts,
   techStack,
