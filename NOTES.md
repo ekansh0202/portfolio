@@ -4,3 +4,4 @@ Libraries Used in the project
 2. tailwind
 3. dayjs
 4. gsap for animation
+5. react-tooltip

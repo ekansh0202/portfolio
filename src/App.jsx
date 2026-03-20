@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
+import Dock from "./components/Dock";
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     <main style={backgroundStyle}>
       <Navbar onWallpaperChange={setWallpaper} />
       <Welcome />
+      <Dock />
     </main>
   )
 }
