@@ -5,3 +5,5 @@ Libraries Used in the project
 3. dayjs
 4. gsap for animation
 5. react-tooltip
+6. zustand
+7. immer
