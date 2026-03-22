@@ -68,7 +68,7 @@ const Dock = () => {
             closeWindow(app.id);
         }
         else{
-            open(app.id);
+            openWindow(app.id);
         }
     }
 

@@ -2,6 +2,11 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Dock from "./components/Dock";
+import Terminal from "./windows/Terminal";
+import gsap from "gsap";
+import { Draggable } from "gsap/Draggable";
+
+gsap.registerPlugin(Draggable);
 
 const App = () => {
 
@@ -21,6 +26,8 @@ const App = () => {
       <Navbar onWallpaperChange={setWallpaper} />
       <Welcome />
       <Dock />
+
+      <Terminal />
     </main>
   )
 }
