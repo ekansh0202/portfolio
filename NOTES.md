@@ -7,3 +7,4 @@ Libraries Used in the project
 5. react-tooltip
 6. zustand
 7. immer
+8. react-pdf

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Dock from "./components/Dock";
 import Terminal from "./windows/Terminal";
+import Resume from "./windows/Resume";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 
@@ -28,6 +29,7 @@ const App = () => {
       <Dock />
 
       <Terminal />
+      <Resume />
     </main>
   )
 }
