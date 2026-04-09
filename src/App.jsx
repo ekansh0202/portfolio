@@ -10,6 +10,7 @@ import ImageContent from "./windows/ImageContent";
 import Contact from "./windows/Contact";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
+import Home from "./components/Home";
 
 gsap.registerPlugin(Draggable);
 
@@ -38,6 +39,7 @@ const App = () => {
       <Text />
       <ImageContent />
       <Contact />
+      <Home />
     </main>
   )
 }
