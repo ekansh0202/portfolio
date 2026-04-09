@@ -8,3 +8,4 @@ Libraries Used in the project
 6. zustand
 7. immer
 8. react-pdf
+9. clsx - To add dynamic classnames in tailwing
