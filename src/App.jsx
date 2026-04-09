@@ -5,6 +5,8 @@ import Dock from "./components/Dock";
 import Terminal from "./windows/Terminal";
 import Resume from "./windows/Resume";
 import Finder from "./windows/Finder";
+import Text from "./windows/Text";
+import ImageContent from "./windows/ImageContent";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 
@@ -32,6 +34,8 @@ const App = () => {
       <Terminal />
       <Resume />
       <Finder />
+      <Text />
+      <ImageContent />
     </main>
   )
 }
