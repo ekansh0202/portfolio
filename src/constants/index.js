@@ -269,6 +269,46 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "School",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-40",
+      windowPosition: "top-[50vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "School.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "A freelancing project - School website built using HTML,CSS JavaScript, Reactjs and Emailjs",
+          ],
+        },
+        {
+          id: 2,
+          name: "school",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://samarthschool.netlify.app",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "school.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/school.png",
+        },
+      ],
+    },
   ],
 };
 
